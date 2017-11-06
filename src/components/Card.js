@@ -6,7 +6,6 @@ export default class Card extends React.Component {
             width: this.props.width
         };
         return (
-
             //div.card>img.card-img-top+div.card-body
             <div style={styles} className="card">
                 <img src={this.props.imgsrc} alt={this.props.imgalt} className="card-img-top"/>
